@@ -398,7 +398,7 @@ void InitGui()
 	Plugin::OnPluginLoad();
 	Plugin::OnSampLoad();
 
-	std::string font_path = string_format("%sSAMP/fonts/%s", g_pszStorage, FONT_NAME);
+	std::string font_path = string_format("%sVentoRP/fonts/%s", g_pszStorage, FONT_NAME);
 	pUI = new UI(ImVec2(RsGlobal->maximumWidth, RsGlobal->maximumHeight), font_path.c_str());
 	pUI->initialize();
 	pUI->performLayout();
@@ -641,7 +641,7 @@ void LogVoice(const char* fmt, ...)
 
 	if (flLog == nullptr && pszStorage != nullptr)
 	{
-		sprintf(buffer, "%sSAMP/%s", pszStorage, SV::kLogFileName);
+		sprintf(buffer, "%sVentoRP/%s", pszStorage, SV::kLogFileName);
 		flLog = fopen(buffer, "w");
 	}
 
