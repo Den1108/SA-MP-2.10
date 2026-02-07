@@ -516,7 +516,7 @@ uint32_t CPad__GetDisplayVitalStats_hook(uint32_t thiz)
     uint32_t result = CPad__GetDisplayVitalStats(thiz);
 
     if (pUI) {
-        if (result) pUI->playertablist()->show();
+       // if (result) pUI->playertablist()->show();
     }
 
     return 0;
