@@ -69,11 +69,11 @@ public:
 
     // Исправлено: используем ImGuiWrapper::m_displaySize напрямую
     float ScaleX(float x) {
-        return x * ImGuiWrapper::m_displaySize.x * (1.0f / 1920.0f);
+        return x * ImGui::GetIO().DisplaySize.x * (1.0f / 1920.0f);
     }
 
     float ScaleY(float y) {
-        return y * ImGuiWrapper::m_displaySize.y * (1.0f / 1080.0f);
+        return y * ImGui::GetIO().DisplaySize.y * (1.0f / 1080.0f);
     }
 
     float GetFontSize() {
