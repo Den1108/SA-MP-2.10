@@ -36,7 +36,7 @@ ButtonPanel::ButtonPanel()
 	m_bTab->setCallback([]() 
 	{ 
 		if (Tab == 0) {
-			if (pUI) { pUI->playertablist()->show(); Tab = 1; }
+			//if (pUI) { pUI->playertablist()->show(); Tab = 1; }
 		}
 		else {
 			Tab = 0;
