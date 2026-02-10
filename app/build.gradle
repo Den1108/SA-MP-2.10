@@ -1,6 +1,6 @@
 plugins {
     id 'com.android.application'
-    id 'io.michaelrocks.paranoid'
+    //id 'io.michaelrocks.paranoid'
     // Удалили google-services, так как он вызывает ошибку пакета com.ventorp.game
 }
 

@@ -1,25 +1,25 @@
-package com.samp.mobile.launcher.other;
+// package com.samp.mobile.launcher.other;
 
-import com.hzy.lib7z.*;
+// import com.hzy.lib7z.*;
 
-public abstract class UnZipCallback implements IExtractCallback {
-    @Override
-    public void onStart() {
-    }
+// public abstract class UnZipCallback implements IExtractCallback {
+//     @Override
+//     public void onStart() {
+//     }
 
-    @Override
-    public void onGetFileNum(int fileNum) {
-    }
+//     @Override
+//     public void onGetFileNum(int fileNum) {
+//     }
 
-    @Override
-    public void onProgress(String name, long size) {
-    }
+//     @Override
+//     public void onProgress(String name, long size) {
+//     }
 
-    @Override
-    public void onError(int errorCode, String message) {
-    }
+//     @Override
+//     public void onError(int errorCode, String message) {
+//     }
 
-    @Override
-    public void onSucceed() {
-    }
-}
+//     @Override
+//     public void onSucceed() {
+//     }
+// }
