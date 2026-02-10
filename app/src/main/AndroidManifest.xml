@@ -22,7 +22,6 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
-        android:gwpAsanMode="always"
         android:requestLegacyExternalStorage="true"
         android:banner="@mipmap/ic_launcher"
         android:hardwareAccelerated="false"

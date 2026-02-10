@@ -24,7 +24,7 @@ android {
     namespace 'com.samp.mobile'
 
     defaultConfig {
-        applicationId "com.ventorp.game"
+        applicationId "com.samp.mobile"
         minSdk 24
         targetSdk 34
         versionCode 2
