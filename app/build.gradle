@@ -93,19 +93,21 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.3.5'
     implementation 'androidx.navigation:navigation-ui:2.3.5'
     
-    implementation 'com.mindorks.android:prdownloader:0.6.0'
+    // ВРЕМЕННО ОТКЛЮЧЕНО (нужно найти замену или локальный .aar)
+    // implementation 'com.mindorks.android:prdownloader:0.6.0'
+    // implementation 'com.github.smarteist:autoimageslider:1.4.0'
+    
     implementation 'com.android.volley:volley:1.2.1'
     implementation 'com.intuit.sdp:sdp-android:1.1.0'
 
-    // Firebase удален, так как он требует валидный google-services.json
-    
-    implementation 'com.github.smarteist:autoimageslider:1.4.0'
     implementation 'org.ini4j:ini4j:0.5.4'
     implementation 'com.github.hzy3774:AndroidP7zip:v1.7.2'
-    implementation 'com.hzy:un7zip:+'
+    
+    // ИСПРАВЛЕНИЕ: Убрали "+" и поставили версию (проверь, есть ли она в libs)
+    implementation 'com.hzy:un7zip:2.1.0' 
+    
     implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
     implementation 'com.github.bumptech.glide:glide:4.13.0'
     implementation "androidx.lifecycle:lifecycle-process:2.2.0"
-    
     implementation 'com.bytedance.android:shadowhook:1.0.9'
 }
