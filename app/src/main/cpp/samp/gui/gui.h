@@ -22,7 +22,7 @@
 #include "samp_widgets/chat.h"
 #include "samp_widgets/spawn.h"
 #include "samp_widgets/buttonpanel.h"
-// #include "samp_widgets/playerTabList.h" // Файл отсутствует
+#include "samp_widgets/playertablist.h"
 #include "samp_widgets/voicebutton.h"
 
 #include "samp_widgets/dialogs/dialog.h"
@@ -54,9 +54,7 @@ public:
     Keyboard* keyboard() const { return m_keyboard; }
     Dialog* dialog() const { return m_dialog; }
     ButtonPanel* buttonpanel() const { return m_buttonPanel; }
-    
-    // Закомментировал функции TabList, так как класса нет
-    // PlayerTabList* playertablist() const { return m_playerTabList; }
+    PlayerTabList* playertablist() const { return m_playerTabList; }
     
     VoiceButton* voicebutton() const { return m_voiceButton; }
 
@@ -112,9 +110,7 @@ private:
     Spawn* m_spawn;
     Dialog* m_dialog;
     ButtonPanel* m_buttonPanel;
-    
-    // Закомментировал саму переменную
-    // PlayerTabList* m_playerTabList; 
+    PlayerTabList* m_playerTabList; 
     
     VoiceButton* m_voiceButton;
     Label* label;

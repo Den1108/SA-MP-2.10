@@ -5,6 +5,7 @@
 #include "../playertags.h"
 #include "../net/playerbubblepool.h"
 #include "vendor/str_obfuscator/str_obfuscator.hpp"
+#include "samp_widgets/playertablist.h"
 // voice
 #include "../voice_new/Plugin.h"
 #include "../voice_new/MicroIcon.h"
