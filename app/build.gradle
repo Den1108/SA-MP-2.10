@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.application'
+    id 'io.michaelrocks.paranoid'
     // Удалили google-services, так как он вызывает ошибку пакета com.ventorp.game
 }
 
@@ -103,6 +104,8 @@ dependencies {
     implementation 'org.ini4j:ini4j:0.5.4'
     implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
     implementation 'com.bytedance.android:shadowhook:1.0.9'
+
+    implementation 'com.hi-ery:un7zip:2.1.0'
 
     // --- ПРОБЛЕМНЫЕ БИБЛИОТЕКИ (ЗАКОММЕНТИРОВАНЫ) ---
     // Если проект не скомпилируется из-за ошибок в Java-коде, 
